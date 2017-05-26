@@ -1,0 +1,747 @@
+10:39:43.214 [main] INFO  com.es.WfxSchedulerApplication - Starting WfxSchedulerApplication on es-sys-323 with PID 5184 (D:\Widgets\GIT\WidgetInsights\wfx-scheduler\target\classes started by mansoora.tm in D:\Widgets\GIT\WidgetInsights\wfx-scheduler)
+10:39:43.216 [main] INFO  com.es.WfxSchedulerApplication - No active profile set, falling back to default profiles: default
+10:39:43.247 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@67d18ed7: startup date [Mon Dec 05 10:39:43 IST 2016]; root of context hierarchy
+10:39:44.150 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+10:39:44.151 [main] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+10:39:44.234 [cluster-ClusterId{value='5844f698abaf1d1440a810eb', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+10:39:44.235 [cluster-ClusterId{value='5844f698abaf1d1440a810eb', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 10]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=439471}
+10:39:44.235 [cluster-ClusterId{value='5844f698abaf1d1440a810eb', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+10:39:44.952 [main] INFO  liquibase - Successfully acquired change log lock
+10:39:45.366 [main] INFO  liquibase - Reading from test.DATABASECHANGELOG
+10:39:45.395 [main] INFO  liquibase - Successfully released change log lock
+10:39:45.423 [main] INFO  o.s.b.f.config.PropertiesFactoryBean - Loading properties file from class path resource [quartz.properties]
+10:39:45.462 [main] INFO  com.mchange.v2.log.MLog - MLog clients using log4j logging.
+10:39:45.475 [main] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+10:39:45.489 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+10:39:45.498 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+10:39:45.499 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+10:39:45.504 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+10:39:45.505 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+10:39:45.506 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'es-sys-3231480914585490'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+10:39:45.506 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+10:39:45.506 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+10:39:45.506 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: com.es.configuration.AutowiringSpringBeanJobFactory@40c2ce52
+10:39:45.854 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+10:39:45.858 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+10:39:45.858 [main] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+10:39:45.874 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances.
+10:39:45.875 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - ClusterManager: Scanning for instance "es-sys-3231480913627568"'s failed in-progress jobs.
+10:39:45.927 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231480914585490 started.
+10:39:45.934 [main] INFO  com.es.WfxSchedulerApplication - Started WfxSchedulerApplication in 3.169 seconds (JVM running for 3.751)
+10:40:03.270 [schedulerFactoryBean_Worker-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:9}] to localhost:27017
+10:41:51.623 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+10:41:51.623 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@67d18ed7: startup date [Mon Dec 05 10:39:43 IST 2016]; root of context hierarchy
+10:41:51.624 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+10:41:51.625 [RMI TCP Connection(2)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231480914585490 paused.
+10:41:51.626 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+10:41:51.626 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+10:41:51.626 [RMI TCP Connection(2)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231480914585490 shutting down.
+10:41:51.626 [RMI TCP Connection(2)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231480914585490 paused.
+10:41:51.628 [schedulerFactoryBean_QuartzSchedulerThread] ERROR o.quartz.core.QuartzSchedulerThread - Runtime error occurred in main trigger firing loop.
+java.lang.IllegalStateException: JobStore is shutdown - aborting retry
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.retryExecuteInNonManagedTXLock(JobStoreSupport.java:3756)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.releaseAcquiredTrigger(JobStoreSupport.java:2865)
+	at org.quartz.core.QuartzSchedulerThread.releaseIfScheduleChangedSignificantly(QuartzSchedulerThread.java:432)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:316)
+10:41:51.629 [RMI TCP Connection(2)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231480914585490 shutdown complete.
+10:41:51.636 [RMI TCP Connection(2)-192.168.5.127] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:9}] to localhost:27017 because the pool has been closed.
+12:47:10.670 [main] INFO  c.e.w.s.WfxSchedulerApplication - Starting WfxSchedulerApplication on es-sys-323 with PID 2444 (D:\Widgets\GIT\WidgetInsights\wfx-scheduler\target\classes started by mansoora.tm in D:\Widgets\GIT\WidgetInsights\wfx-scheduler)
+12:47:10.672 [main] INFO  c.e.w.s.WfxSchedulerApplication - No active profile set, falling back to default profiles: default
+12:47:10.702 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@67d18ed7: startup date [Tue Dec 06 12:47:10 IST 2016]; root of context hierarchy
+12:47:11.419 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+12:47:11.419 [main] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+12:47:11.463 [cluster-ClusterId{value='584665f7abaf1d098c55332a', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:12}] to localhost:27017
+12:47:11.464 [cluster-ClusterId{value='584665f7abaf1d098c55332a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 10]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=466219}
+12:47:11.464 [cluster-ClusterId{value='584665f7abaf1d098c55332a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+12:47:12.236 [main] INFO  liquibase - Successfully acquired change log lock
+12:47:12.679 [main] INFO  liquibase - Reading from test.DATABASECHANGELOG
+12:47:12.777 [main] INFO  liquibase - Successfully released change log lock
+12:47:12.803 [main] INFO  o.s.b.f.config.PropertiesFactoryBean - Loading properties file from class path resource [quartz.properties]
+12:47:12.841 [main] INFO  com.mchange.v2.log.MLog - MLog clients using log4j logging.
+12:47:12.854 [main] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+12:47:12.868 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+12:47:12.877 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+12:47:12.877 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+12:47:12.882 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+12:47:12.883 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+12:47:12.883 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'es-sys-3231481008632869'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+12:47:12.884 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+12:47:12.884 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+12:47:12.884 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: com.es.wfx.scheduler.configuration.AutowiringSpringBeanJobFactory@2e13f304
+12:47:13.235 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:47:13.239 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+12:47:13.239 [main] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+12:47:13.243 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances.
+12:47:13.243 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - ClusterManager: Scanning for instance "es-sys-3231481008023374"'s failed in-progress jobs.
+12:47:13.278 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231481008632869 started.
+12:47:13.284 [main] INFO  c.e.w.s.WfxSchedulerApplication - Started WfxSchedulerApplication in 3.046 seconds (JVM running for 3.575)
+12:47:38.652 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+12:47:38.652 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@67d18ed7: startup date [Tue Dec 06 12:47:10 IST 2016]; root of context hierarchy
+12:47:38.653 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+12:47:38.653 [RMI TCP Connection(2)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231481008632869 paused.
+12:47:38.654 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+12:47:38.654 [RMI TCP Connection(2)-192.168.5.127] INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+12:47:38.654 [RMI TCP Connection(2)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231481008632869 shutting down.
+12:47:38.654 [RMI TCP Connection(2)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231481008632869 paused.
+12:47:38.654 [RMI TCP Connection(2)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231481008632869 shutdown complete.
+13:24:44.778 [main] DEBUG o.s.b.l.ClasspathLoggingApplicationListener - Application started with classpath: [file:/D:/Widgets/GIT/WidgetInsights/wfx-scheduler/target/classes/, file:/D:/Widgets/GIT/WidgetInsights/wfx-analytics/target/classes/, file:/D:/Widgets/GIT/WidgetInsights/wfx-analytics/target/test-classes/, file:/C:/Users/mansoora.tm/.m2/repository/com/google/apis/google-api-services-admin/directory_v1-rev4-1.15.0-rc/google-api-services-admin-directory_v1-rev4-1.15.0-rc.jar, file:/C:/Users/mansoora.tm/.m2/repository/com/google/api-client/google-api-client/1.15.0-rc/google-api-client-1.15.0-rc.jar, file:/C:/Users/mansoora.tm/.m2/repository/com/google/oauth-client/google-oauth-client/1.15.0-rc/google-oauth-client-1.15.0-rc.jar, file:/C:/Users/mansoora.tm/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/boot/spring-boot-starter-data-mongodb/1.4.3.RELEASE/spring-boot-starter-data-mongodb-1.4.3.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/mongodb/mongodb-driver/3.2.2/mongodb-driver-3.2.2.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/mongodb/mongodb-driver-core/3.2.2/mongodb-driver-core-3.2.2.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/mongodb/bson/3.2.2/bson-3.2.2.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/data/spring-data-mongodb/1.9.6.RELEASE/spring-data-mongodb-1.9.6.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-expression/4.3.5.RELEASE/spring-expression-4.3.5.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/data/spring-data-commons/1.12.6.RELEASE/spring-data-commons-1.12.6.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-context-support/4.3.5.RELEASE/spring-context-support-4.3.5.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar, file:/C:/Users/mansoora.tm/.m2/repository/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/boot/spring-boot-starter/1.4.3.RELEASE/spring-boot-starter-1.4.3.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/boot/spring-boot/1.4.3.RELEASE/spring-boot-1.4.3.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.4.3.RELEASE/spring-boot-autoconfigure-1.4.3.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.4.3.RELEASE/spring-boot-starter-logging-1.4.3.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar, file:/C:/Users/mansoora.tm/.m2/repository/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/slf4j/jul-to-slf4j/1.7.22/jul-to-slf4j-1.7.22.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.22/log4j-over-slf4j-1.7.22.jar, file:/C:/Users/mansoora.tm/.m2/repository/mysql/mysql-connector-java/5.1.40/mysql-connector-java-5.1.40.jar, file:/C:/Users/mansoora.tm/.m2/repository/com/google/apis/google-api-services-analyticsreporting/v4-rev12-1.22.0/google-api-services-analyticsreporting-v4-rev12-1.22.0.jar, file:/C:/Users/mansoora.tm/.m2/repository/com/google/api-client/google-api-client-gson/1.22.0/google-api-client-gson-1.22.0.jar, file:/C:/Users/mansoora.tm/.m2/repository/com/google/http-client/google-http-client-gson/1.22.0/google-http-client-gson-1.22.0.jar, file:/C:/Users/mansoora.tm/.m2/repository/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.jar, file:/C:/Users/mansoora.tm/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, file:/C:/Users/mansoora.tm/.m2/repository/com/google/code/gson/gson/2.7/gson-2.7.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/boot/spring-boot-starter-test/1.4.3.RELEASE/spring-boot-starter-test-1.4.3.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/boot/spring-boot-test/1.4.3.RELEASE/spring-boot-test-1.4.3.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/1.4.3.RELEASE/spring-boot-test-autoconfigure-1.4.3.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar, file:/C:/Users/mansoora.tm/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar, file:/C:/Users/mansoora.tm/.m2/repository/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar, file:/C:/Users/mansoora.tm/.m2/repository/junit/junit/4.12/junit-4.12.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/assertj/assertj-core/2.5.0/assertj-core-2.5.0.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/skyscreamer/jsonassert/1.3.0/jsonassert-1.3.0.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/json/json/20140107/json-20140107.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-test/4.3.5.RELEASE/spring-test-4.3.5.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/data/spring-data-redis/1.7.6.RELEASE/spring-data-redis-1.7.6.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/data/spring-data-keyvalue/1.1.6.RELEASE/spring-data-keyvalue-1.1.6.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-tx/4.3.5.RELEASE/spring-tx-4.3.5.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-oxm/4.3.5.RELEASE/spring-oxm-4.3.5.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar, file:/C:/Users/mansoora.tm/.m2/repository/redis/clients/jedis/2.8.2/jedis-2.8.2.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.4.3.RELEASE/spring-boot-starter-jdbc-1.4.3.RELEASE.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.5.6/tomcat-jdbc-8.5.6.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/apache/tomcat/tomcat-juli/8.5.6/tomcat-juli-8.5.6.jar, file:/C:/Users/mansoora.tm/.m2/repository/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE.jar]
+13:24:44.837 [main] INFO  c.e.w.s.WfxSchedulerApplication - Starting WfxSchedulerApplication on es-sys-323 with PID 12284 (D:\Widgets\GIT\WidgetInsights\wfx-scheduler\target\classes started by mansoora.tm in D:\Widgets\GIT\WidgetInsights\wfx-scheduler)
+13:24:44.837 [main] INFO  c.e.w.s.WfxSchedulerApplication - No active profile set, falling back to default profiles: default
+13:24:44.837 [main] DEBUG o.s.boot.SpringApplication - Loading source class com.es.wfx.scheduler.WfxSchedulerApplication
+13:24:44.866 [main] DEBUG o.s.b.c.c.ConfigFileApplicationListener - Loaded config file 'file:/D:/Widgets/GIT/WidgetInsights/wfx-scheduler/target/classes/application.properties' (classpath:/application.properties)
+13:24:44.866 [main] DEBUG o.s.b.c.c.ConfigFileApplicationListener - Skipped (empty) config file 'file:/D:/Widgets/GIT/WidgetInsights/wfx-scheduler/target/classes/application.properties' (classpath:/application.properties) for profile default
+13:24:44.869 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a62b5bc: startup date [Mon Jan 16 13:24:44 IST 2017]; root of context hierarchy
+13:24:45.369 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:24:45.372 [main] DEBUG o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'com.es.wfx.scheduler'. Automatic @Repository and @Entity scanning is enabled.
+13:24:45.424 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:24:45.807 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+13:24:45.807 [main] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+13:24:45.845 [cluster-ClusterId{value='587c7c456e5c3c2ffc1fada8', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+13:24:45.846 [cluster-ClusterId{value='587c7c456e5c3c2ffc1fada8', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 10]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=435738}
+13:24:45.847 [cluster-ClusterId{value='587c7c456e5c3c2ffc1fada8', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+13:24:46.959 [main] INFO  liquibase - Successfully acquired change log lock
+13:24:47.537 [main] INFO  liquibase - Reading from test.DATABASECHANGELOG
+13:24:47.566 [main] INFO  liquibase - Successfully released change log lock
+13:24:47.594 [main] INFO  o.s.b.f.config.PropertiesFactoryBean - Loading properties file from class path resource [quartz.properties]
+13:24:47.642 [main] INFO  com.mchange.v2.log.MLog - MLog clients using log4j logging.
+13:24:47.773 [main] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+13:24:47.790 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+13:24:47.800 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13:24:47.800 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.1 created.
+13:24:47.827 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+13:24:47.828 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+13:24:47.829 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'schedulerFactoryBean' with instanceId 'es-sys-3231484553287791'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+13:24:47.829 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+13:24:47.829 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.1
+13:24:47.829 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: com.es.wfx.scheduler.configuration.AutowiringSpringBeanJobFactory@7f13811b
+13:24:48.204 [main] DEBUG o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+13:24:48.366 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+13:24:48.371 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+13:24:48.371 [main] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+13:24:48.382 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances.
+13:24:48.382 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore - ClusterManager: Scanning for instance "es-sys-3231484212765556"'s failed in-progress jobs.
+13:24:48.416 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231484553287791 started.
+13:24:48.425 [main] DEBUG o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+
+=========================
+AUTO-CONFIGURATION REPORT
+=========================
+
+
+Positive matches:
+-----------------
+
+   DataSourceAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   DataSourceAutoConfiguration#dataSourceInitializer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceConfiguration.Tomcat matched:
+      - @ConditionalOnClass found required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+      - @ConditionalOnProperty (spring.datasource.type=org.apache.tomcat.jdbc.pool.DataSource) matched (OnPropertyCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.TomcatDataSourcePoolMetadataProviderConfiguration matched:
+      - @ConditionalOnClass found required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.jdbc.core.JdbcTemplate', 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.DataSourceTransactionManagerConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.DataSourceTransactionManagerConfiguration#transactionManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.TransactionManagementConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   GenericCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
+
+   GsonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.google.gson.Gson' (OnClassCondition)
+
+   GsonAutoConfiguration#gson matched:
+      - @ConditionalOnMissingBean (types: com.google.gson.Gson; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration#jdbcTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration#namedParameterJdbcTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
+
+   JmxAutoConfiguration#mbeanExporter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.MBeanExporter; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration#mbeanServer matched:
+      - @ConditionalOnMissingBean (types: javax.management.MBeanServer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration#objectNamingStrategy matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.naming.ObjectNamingStrategy; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   LiquibaseAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'liquibase.integration.spring.SpringLiquibase' (OnClassCondition)
+      - @ConditionalOnProperty (liquibase.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource' (OnBeanCondition)
+
+   LiquibaseAutoConfiguration.LiquibaseConfiguration matched:
+      - @ConditionalOnMissingBean (types: liquibase.integration.spring.SpringLiquibase; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MongoAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.mongodb.MongoClient' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.mongodb.MongoDbFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MongoAutoConfiguration#mongo matched:
+      - @ConditionalOnMissingBean (types: com.mongodb.MongoClient; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MongoDataAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'com.mongodb.Mongo', 'org.springframework.data.mongodb.core.MongoTemplate' (OnClassCondition)
+
+   MongoDataAutoConfiguration#customConversions matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.mongodb.core.convert.CustomConversions; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MongoDataAutoConfiguration#gridFsTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.mongodb.gridfs.GridFsTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MongoDataAutoConfiguration#mappingMongoConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.mongodb.core.convert.MongoConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MongoDataAutoConfiguration#mongoDbFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.mongodb.MongoDbFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MongoDataAutoConfiguration#mongoMappingContext matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.mongodb.core.mapping.MongoMappingContext; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MongoDataAutoConfiguration#mongoTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.mongodb.core.MongoTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MongoRepositoriesAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'com.mongodb.Mongo', 'org.springframework.data.mongodb.repository.MongoRepository' (OnClassCondition)
+      - @ConditionalOnProperty (spring.data.mongodb.repositories.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean,org.springframework.data.mongodb.repository.config.MongoRepositoryConfigurationExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched:
+      - @ConditionalOnProperty (spring.dao.exceptiontranslation.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   RedisAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.data.redis.connection.jedis.JedisConnection', 'org.springframework.data.redis.core.RedisOperations', 'redis.clients.jedis.Jedis' (OnClassCondition)
+
+   RedisAutoConfiguration.RedisConfiguration#stringRedisTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.redis.core.StringRedisTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RedisAutoConfiguration.RedisConnectionConfiguration matched:
+      - @ConditionalOnClass found required class 'org.apache.commons.pool2.impl.GenericObjectPool' (OnClassCondition)
+
+   RedisCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration automatic cache type (CacheCondition)
+
+   RedisRepositoriesAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'redis.clients.jedis.Jedis', 'org.springframework.data.redis.repository.configuration.EnableRedisRepositories' (OnClassCondition)
+      - @ConditionalOnProperty (spring.data.redis.repositories.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.redis.repository.support.RedisRepositoryFactoryBean; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SchedulerConfig matched:
+      - @ConditionalOnProperty (quartz.enabled) matched (OnPropertyCondition)
+
+   SimpleCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration automatic cache type (CacheCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.application.admin.enabled=true) matched (OnPropertyCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration#springApplicationAdminRegistrar matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.transaction.support.TransactionTemplate', 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a primary bean from beans 'transactionManager' (OnBeanCondition)
+
+   TransactionAutoConfiguration#transactionTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ActiveMQAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.jms.ConnectionFactory', 'org.apache.activemq.ActiveMQConnectionFactory' (OnClassCondition)
+
+   AopAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.aspectj.lang.annotation.Aspect', 'org.aspectj.lang.reflect.Advice' (OnClassCondition)
+
+   ArtemisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.jms.ConnectionFactory', 'org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory' (OnClassCondition)
+
+   BatchAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.batch.core.launch.JobLauncher' (OnClassCondition)
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: cacheResolver; types: org.springframework.cache.CacheManager; SearchStrategy: all) found bean 'cacheManager' (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+   CacheAutoConfiguration.CacheManagerJpaDependencyConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+         - Ancestor org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+
+   CaffeineCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine' (OnClassCondition)
+
+   CassandraAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.driver.core.Cluster' (OnClassCondition)
+
+   CassandraDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.datastax.driver.core.Cluster', 'org.springframework.data.cassandra.core.CassandraAdminOperations' (OnClassCondition)
+
+   CassandraRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.datastax.driver.core.Session', 'org.springframework.data.cassandra.repository.CassandraRepository' (OnClassCondition)
+
+   CloudAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.cloud.config.java.CloudScanConfiguration' (OnClassCondition)
+
+   CouchbaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.couchbase.client.java.CouchbaseBucket', 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.couchbase.client.java.Bucket', 'com.couchbase.client.spring.cache.CouchbaseCacheManager' (OnClassCondition)
+
+   CouchbaseDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.couchbase.client.java.Bucket', 'org.springframework.data.couchbase.repository.CouchbaseRepository' (OnClassCondition)
+
+   CouchbaseRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.couchbase.client.java.Bucket', 'org.springframework.data.couchbase.repository.CouchbaseRepository' (OnClassCondition)
+
+   DataSourceAutoConfiguration.EmbeddedDatabaseConfiguration:
+      Did not match:
+         - EmbeddedDataSource found supported pooled data source (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
+
+   DataSourceAutoConfiguration.TomcatDataSourceJmxConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.jmx-enabled) did not find property 'jmx-enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.apache.tomcat.jdbc.pool.DataSourceProxy' (OnClassCondition)
+
+   DataSourceConfiguration.Dbcp:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp.BasicDataSource' (OnClassCondition)
+
+   DataSourceConfiguration.Dbcp2:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourceConfiguration.Generic:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (OnPropertyCondition)
+
+   DataSourceConfiguration.Hikari:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcp2PoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcpPoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp.BasicDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+
+   DeviceDelegatingViewResolverAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.mobile.device.view.LiteDeviceDelegatingViewResolver' (OnClassCondition)
+
+   DeviceResolverAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.mobile.device.DeviceResolverHandlerInterceptor', 'org.springframework.mobile.device.DeviceHandlerMethodArgumentResolver' (OnClassCondition)
+
+   DispatcherServletAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+
+   EhCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'net.sf.ehcache.Cache' (OnClassCondition)
+
+   ElasticsearchAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.elasticsearch.client.Client', 'org.springframework.data.elasticsearch.client.TransportClientFactoryBean', 'org.springframework.data.elasticsearch.client.NodeClientFactoryBean' (OnClassCondition)
+
+   ElasticsearchDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.elasticsearch.client.Client', 'org.springframework.data.elasticsearch.core.ElasticsearchTemplate' (OnClassCondition)
+
+   ElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.elasticsearch.client.Client', 'org.springframework.data.elasticsearch.repository.ElasticsearchRepository' (OnClassCondition)
+
+   EmbeddedMongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'de.flapdoodle.embed.mongo.MongodStarter' (OnClassCondition)
+
+   EmbeddedServletContainerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication (required) did not find web application classes (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+
+   FacebookAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.social.config.annotation.SocialConfigurerAdapter', 'org.springframework.social.facebook.connect.FacebookConnectionFactory' (OnClassCondition)
+
+   FallbackWebSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   FlywayAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+
+   FreeMarkerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'freemarker.template.Configuration' (OnClassCondition)
+
+   GroovyTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'groovy.text.markup.MarkupTemplateEngine' (OnClassCondition)
+
+   GuavaCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.common.cache.CacheBuilder' (OnClassCondition)
+
+   H2ConsoleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.h2.server.web.WebServlet' (OnClassCondition)
+
+   HazelcastAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.hazelcast.core.HazelcastInstance', 'com.hazelcast.spring.cache.HazelcastCacheManager' (OnClassCondition)
+
+   HazelcastJpaDependencyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'com.hazelcast.core.HazelcastInstance', 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+
+   HibernateJpaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'javax.persistence.EntityManager' (OnClassCondition)
+
+   HornetQAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.jms.ConnectionFactory', 'org.hornetq.api.jms.HornetQJMSClient' (OnClassCondition)
+
+   HttpEncodingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+
+   HypermediaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.hateoas.Resource', 'org.springframework.web.bind.annotation.RequestMapping', 'org.springframework.plugin.core.Plugin' (OnClassCondition)
+
+   InfinispanCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.infinispan.spring.provider.SpringEmbeddedCacheManager' (OnClassCondition)
+
+   IntegrationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.integration.config.EnableIntegration' (OnClassCondition)
+
+   JCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.cache.Caching' (OnClassCondition)
+
+   JacksonAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   JerseyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.glassfish.jersey.server.spring.SpringComponentProvider', 'javax.servlet.ServletRegistration' (OnClassCondition)
+
+   JestAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.searchbox.client.JestClient' (OnClassCondition)
+
+   JmsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
+
+   JndiConnectionFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.jndi-name) did not find property 'jndi-name' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   JooqAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.jooq.DSLContext' (OnClassCondition)
+
+   JpaRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+
+   JtaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.transaction.Transaction' (OnClassCondition)
+
+   LinkedInAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.social.config.annotation.SocialConfigurerAdapter', 'org.springframework.social.linkedin.connect.LinkedInConnectionFactory' (OnClassCondition)
+
+   LiquibaseAutoConfiguration.LiquibaseJpaDependencyConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+
+   MailSenderAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.mail.internet.MimeMessage' (OnClassCondition)
+
+   MailSenderValidatorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.mail.test-connection) did not find property 'test-connection' (OnPropertyCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MultipartAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'javax.servlet.MultipartConfigElement' (OnClassCondition)
+
+   MustacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.samskivert.mustache.Mustache' (OnClassCondition)
+
+   Neo4jDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.neo4j.ogm.session.Neo4jSession', 'org.springframework.data.neo4j.template.Neo4jOperations' (OnClassCondition)
+
+   Neo4jRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.neo4j.ogm.session.Neo4jSession', 'org.springframework.data.neo4j.repository.GraphRepository' (OnClassCondition)
+
+   OAuth2AutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.security.oauth2.common.OAuth2AccessToken', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter' (OnClassCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   RabbitAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.amqp.rabbit.core.RabbitTemplate', 'com.rabbitmq.client.Channel' (OnClassCondition)
+
+   ReactorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'reactor.spring.context.config.EnableReactor', 'reactor.Environment' (OnClassCondition)
+
+   RedisAutoConfiguration.RedisConfiguration#redisTemplate:
+      Did not match:
+         - @ConditionalOnMissingBean (names: redisTemplate; SearchStrategy: all) found bean 'redisTemplate' (OnBeanCondition)
+
+   RedisAutoConfiguration.RedisConnectionConfiguration#redisConnectionFactory:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.data.redis.connection.RedisConnectionFactory; SearchStrategy: all) found bean 'redisConnectionFactory' (OnBeanCondition)
+
+   RepositoryRestMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' (OnClassCondition)
+
+   SecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.security.authentication.AuthenticationManager', 'org.springframework.security.config.annotation.authentication.configurers.GlobalAuthenticationConfigurerAdapter' (OnClassCondition)
+
+   SecurityFilterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer', 'org.springframework.security.config.http.SessionCreationPolicy' (OnClassCondition)
+
+   SendGridAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.sendgrid.SendGrid' (OnClassCondition)
+
+   ServerPropertiesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication (required) did not find web application classes (OnWebApplicationCondition)
+
+   SessionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.session.Session' (OnClassCondition)
+
+   SitePreferenceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.mobile.device.site.SitePreferenceHandlerInterceptor', 'org.springframework.mobile.device.site.SitePreferenceHandlerMethodArgumentResolver' (OnClassCondition)
+
+   SocialWebAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.social.connect.web.ConnectController', 'org.springframework.social.config.annotation.SocialConfigurerAdapter' (OnClassCondition)
+
+   SolrAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.apache.solr.client.solrj.impl.HttpSolrClient', 'org.apache.solr.client.solrj.impl.CloudSolrClient' (OnClassCondition)
+
+   SolrRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.apache.solr.client.solrj.SolrClient', 'org.springframework.data.solr.repository.SolrRepository' (OnClassCondition)
+
+   SpringDataWebAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter' (OnClassCondition)
+
+   ThymeleafAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.thymeleaf.spring4.SpringTemplateEngine' (OnClassCondition)
+
+   TwitterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.springframework.social.config.annotation.SocialConfigurerAdapter', 'org.springframework.social.twitter.connect.TwitterConnectionFactory' (OnClassCondition)
+
+   VelocityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.velocity.app.VelocityEngine' (OnClassCondition)
+
+   WebClientAutoConfiguration.RestTemplateConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.client.RestTemplate' (OnClassCondition)
+
+   WebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter' (OnClassCondition)
+
+   WebServicesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ws.transport.http.MessageDispatcherServlet' (OnClassCondition)
+
+   WebSocketAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'javax.servlet.Servlet', 'javax.websocket.server.ServerContainer' (OnClassCondition)
+
+   WebSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer' (OnClassCondition)
+
+   XADataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.transaction.TransactionManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+13:24:48.431 [main] INFO  c.e.w.s.WfxSchedulerApplication - Started WfxSchedulerApplication in 4.16 seconds (JVM running for 4.77)
+13:25:00.145 [schedulerFactoryBean_Worker-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:3}] to localhost:27017
+13:25:03.831 [schedulerFactoryBean_Worker-1] INFO  c.e.w.a.ga.GoogleAnalyticsAdaptor -  GA data from 2017-01-12 to 2017-01-16
+13:25:03.897 [schedulerFactoryBean_Worker-1] INFO  c.es.wfx.scheduler.job.GADataPullJob - Scheduler Job excecuted and pushed to database
+13:25:04.154 [schedulerFactoryBean_Worker-2] INFO  o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@22c68d72: startup date [Mon Jan 16 13:25:04 IST 2017]; root of context hierarchy
+13:25:04.155 [schedulerFactoryBean_Worker-2] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [application-context.xml]
+13:25:04.207 [schedulerFactoryBean_Worker-2] INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [application.properties]
+13:25:04.221 [schedulerFactoryBean_Worker-2] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=50}
+13:25:04.240 [schedulerFactoryBean_Worker-2] INFO  org.mongodb.driver.cluster - No server chosen by WritableServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+13:25:04.240 [cluster-ClusterId{value='587c7c586e5c3c2ffc1fae3d', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:4}] to localhost:27017
+13:25:04.241 [cluster-ClusterId{value='587c7c586e5c3c2ffc1fae3d', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 10]}, minWireVersion=0, maxWireVersion=4, maxDocumentSize=16777216, roundTripTimeNanos=415211}
+13:25:04.243 [schedulerFactoryBean_Worker-2] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:5}] to localhost:27017
+13:25:07.960 [RMI TCP Connection(7)-192.168.5.127] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+13:25:07.961 [RMI TCP Connection(7)-192.168.5.127] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a62b5bc: startup date [Mon Jan 16 13:24:44 IST 2017]; root of context hierarchy
+13:25:07.962 [RMI TCP Connection(7)-192.168.5.127] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+13:25:08.019 [RMI TCP Connection(7)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231484553287791 paused.
+13:25:08.020 [RMI TCP Connection(7)-192.168.5.127] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+13:25:08.020 [RMI TCP Connection(7)-192.168.5.127] INFO  o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+13:25:08.020 [RMI TCP Connection(7)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231484553287791 shutting down.
+13:25:08.020 [RMI TCP Connection(7)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231484553287791 paused.
+13:25:08.021 [RMI TCP Connection(7)-192.168.5.127] INFO  org.quartz.core.QuartzScheduler - Scheduler schedulerFactoryBean_$_es-sys-3231484553287791 shutdown complete.
+13:25:08.024 [RMI TCP Connection(7)-192.168.5.127] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:3}] to localhost:27017 because the pool has been closed.
